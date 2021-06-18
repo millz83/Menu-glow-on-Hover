@@ -1,0 +1,33 @@
+body {
+    background:#000;
+}
+
+.box {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    text-align: center;
+    transform:translate(-50%, -50%);
+}
+
+.box a {
+    display: inline-block;
+    padding:10px 20px;
+    font-size:18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:.5s;
+    letter-spacing: 5px;
+    margin:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+.box a:hover{ 
+    background:yellow;
+   box-shadow: 0 0 5px yellow, 0 0 25px yellow, 0 0 50px yellow, 0 0 100px yellow;
+
+ }
